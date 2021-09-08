@@ -108,5 +108,15 @@ body
   display: inline-block;
 }
 
+footer 
+{
+  background-color: rgba(0, 0, 0, 0.445);
+  padding: 20px;
+  color: #FFF;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
 
 
