@@ -8,7 +8,7 @@
   <title>Formulario Registro</title>
 </head>
 <body>
-<form action="datosRegistro.php" method="GET"> 
+<form action="datosRegistro.php" method="post"> 
 
   <section class="form-register">
   
@@ -17,11 +17,13 @@
     <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
     <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido" required>
     <input class="controls" type="email" name="email" id="email" placeholder="Correo" required>
+    <label for ="edad">Edad:</label>
+    <input type="number" name="edad" value="21" required>
     <input class="controls" type="password" name="password" id="password" placeholder="password" required>
     
     <p>Estoy de acuerdo con los <a href="terminosCondiciones.html"><b>Terminos y Condiciones</b></a></p>
     
-    <input class="botons" type="submit" value="ENTRAAA!!!!!!"> 
+    <input class="botons" type="submit" value="Enviar"> 
   
   </section>
 

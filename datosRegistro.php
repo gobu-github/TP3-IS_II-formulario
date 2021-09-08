@@ -10,14 +10,14 @@
 <body>
     <section class="registroExitoso">
         
-    
         <?php
-        $nombre = $_GET['nombre'];
-        $apellido = $_GET["apellido"];
-        $correo = $_GET["email"];
-        $contraseña = $_GET["password"];
+        $nombre = $_POST['nombre'];
+        $apellido = $_POST["apellido"];
+        $correo = $_POST["email"];
+        $contraseña = $_POST["password"];
+        $edad = $_POST['edad'];
 
-        echo "Hola, $nombre $apellido, tu correo es $correo, estas registrad@";
+        echo "Hola, $nombre $apellido, de $edad años de edad, tu correo es $correo, estas registrad@";
         ?>
 
         <br>
